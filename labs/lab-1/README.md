@@ -1,3 +1,7 @@
+# Run from terminal
+1. javac Konkordans.java
+2. java Konkordans 'type search word'
+
 # Konkordans
 
 En konkordans är en databas där man kan slå upp ord och då få se alla förekomster av ordet tillsammans med orden närmast före och närmast efter i texten. Detta är ett stort hjälpmedel för lingvister som vill undersöka hur olika ord används i språket.
