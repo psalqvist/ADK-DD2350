@@ -1,4 +1,4 @@
-# Testing example in terminal
+# Run from terminal
 1. javac Reduce.java
 2. java Reduce < ./../testfall/sample36.in
 # NP-fullständighetsreduktioner - Rollbesättning
