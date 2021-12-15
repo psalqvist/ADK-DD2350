@@ -1,7 +1,7 @@
 # Testing example in terminal
 1. javac Reduce.java
 2. java Reduce < ./../testfall/sample36.in
-***
+---
 # NP-fullständighetsreduktioner - Rollbesättning
 
 Ansvarig för castingen på ett filmbolag behöver koppla ihop rätt skådespelare med rätt roller. Samma person kan spela flera roller, men samma roll kan endast innehas av en person. Manus anger vilka roller som är med i samma scener. Inga monologer får förekomma. Varje skådespelare får bara ha en roll i varje scen. Varje roll måste förekomma i minst en scen.
