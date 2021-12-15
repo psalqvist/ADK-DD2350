@@ -1,0 +1,19 @@
+- läs igenom problemformuleringen ett par gånger och försök hitta olika antaganden du kan göra om indatans format, övre/undre gränser på storlekar, etc. och hur du kan använda de antaganden till att minska arbetet du behöver göra
+
+- Minska antalet allokeringar (new i Java), och undvik dem i så mycket som möjligt i heta loopar. Bättre att allokera minne en gång och använda det flera.
+
+- samma som ovan fast för branches (if-satser), kom ihåg branch prediction från dtek
+
+- gör koden mer cachevänlig (dtek igen), kan vara lite klurigt i Java dock
+
+- den snabbaste koden är den som aldrig körs: finns det fall då man kan hoppa över/avbryta beräkningar?
+
+- lagra inte mer information än vad som absolut krävs, skrivningar/läsningar från minne tar tid, moderna processorer är i många fall snabbare på att räkna ut värdet på nytt än att hämta det från minne
+
+Om du är intresserad av mer än att klara labbredovisningen:
+
+- Skriv programmet i ett språk som är mer transparant till hur minnet allokeras, som C/C++/Rust. Gör det enklare att optimera för cache, branches och det andra nedan:
+
+- ersätt branches med coola bit-hacks (googla på ”branchless programming)
+
+- använd SIMD och utnyttja parallelism där det går

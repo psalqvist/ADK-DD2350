@@ -1,0 +1,9 @@
+*.iml
+*.class
+korpus
+rawindex.txt
+P.txt
+*.DS_Store
+.DS_Store?
+/mästarprov
+/teoriuppgifter
